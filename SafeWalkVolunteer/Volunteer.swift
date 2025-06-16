@@ -19,8 +19,8 @@ class SafeWalkVolunteer: Volunteer {
     
     // TODO: Create an Int maxHours computed property. It is a get-only property that returns 1 if the volunteer's age is less than 18 and returns 3 if the volunteer's age is 18 and over.
     var maxHours: Int {
-        if age < 18 { return 3 }
-        else { return 1 }
+        if age < 18 { return 1 }
+        else { return 3 }
     }
     
     // TODO: Create an initializer without parameters that sets name to an empty string and age to 0.
